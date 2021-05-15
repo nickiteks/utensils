@@ -15,20 +15,26 @@
     <title>Ручка</title>
 </head>
  <body>
-        <ul class="nav" style="background: #3270AA">
-          <li class="nav-item">
-            <a class="nav-link" href="index.html" style="color: #F5EE3F;">Главная</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="pencil3D.html" style="color: #F5EE3F;" >Карандаш</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="pen3D.html" style="color: #F5EE3F;">Ручка</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="penF3D.html" style="color: #F5EE3F;">Перо</a>
-          </li>
-        </ul>
+        <nav class="navbar fixed-top navbar-dark bg-black navbar-expand-md" style="background: #0F0F0F">
+            <div class="container">
+                <div class="collapse navbar-collapse justify-content-end" id="main-nav-collapse" style="background: #0F0F0F" >
+                    <ul class="navbar-nav" style="background: #0F0F0F">
+                        <h3>
+                            <li class="nav-item"><a class="nav-link" href="index.html" style="color: #FFFFFF">Главная</a></li>
+                        </h3>
+                        <h3>
+                            <li class="nav-item"><a class="nav-link" href="pencil3D.html" style="color: #FFFFFF;" >Карандаш</a></li>
+                        </h3>
+                        <h3>
+                            <li class="nav-item"><a class="nav-link" href="pen3D.html" style="color: #FFFFFF;">Ручка</a></li>
+                        </h3>
+                        <h3>
+                            <li class="nav-item"><a class="nav-link" href="penF3D.html" style="color: #FFFFFF;">Перо</a></li>
+                        </h3>
+                    </ul>
+                </div>
+            </div>
+        </nav>
 
 
 
@@ -43,7 +49,7 @@
         function init() {
             autoRotate = false
             scene = new THREE.Scene();
-            scene.background = new THREE.Color(0xdddddd);
+            scene.background = new THREE.Color(0x464646);
             camera = new THREE.PerspectiveCamera(20, window.innerWidth / window.innerHeight, 1, 5000);
             camera.rotation.y = 45 / 180 * Math.PI;
             camera.position.x = 50;

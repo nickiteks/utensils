@@ -7,5 +7,121 @@
 }
 
 .p-img {
+    text-align: left;
+}
+.navbar-dark .navbar-nav .active::after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    content: " ";
+    border-bottom: 5px solid #000000;
+}
+.pencil-img{
     text-align: center;
+}
+.pencilPng{
+width: 60%;
+height: 70%;
+background: linear-gradient(0deg, rgba(15, 15, 15, 0.5), rgba(15, 15, 15, 0.5)), url(unknown (2).png);
+}
+.text1
+{
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 150%;
+    /* or 72px */
+
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.Png{
+    margin-right: 10px; /* Отступ справа */
+    margin-bottom: 10px;
+    width: 45%;
+    height: 45%;
+}
+.img-wrap {
+  position: relative;
+}
+.img-wrap h1 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+
+  font-family: PT Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 150%;
+    /* or 72px */
+
+    text-align: center;
+    text-transform: uppercase;
+  color: #FFFFFF;
+}
+.img-wrap {
+  position: relative;
+}
+.img-wrap h1 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+
+  font-family: PT Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 150%;
+    /* or 72px */
+
+    text-align: center;
+    text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.img-wrap1 {
+  position: relative;
+}
+.img-wrap1 h1 {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+
+  font-family: PT Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 150%;
+    /* or 72px */
+
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.leftimg {
+    float:left; /* Выравнивание по левому краю */
+    margin: 7px 7px 7px 0; /* Отступы вокруг картинки */
+}
+.text2{
+font-family: PT Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 150%;
+    /* or 72px */
+
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.rightimg  {
+    float: right; /* Выравнивание по правому краю  */
+    margin: 7px 0 7px 7px; /* Отступы вокруг картинки */
 }
